@@ -465,7 +465,7 @@ header {
         width: auto;
     }
     .area-professor--direita{
-        font-size: 12px;
+        font-size: 13px;
     }
     .area-professor--direita ul{
         gap: 10px;
@@ -478,7 +478,7 @@ header {
         width: auto;
     }
     .area-aluno--esquerda{
-        font-size: 12px;
+        font-size: 13px;
     }
     .area-aluno--esquerda ul{
         gap:10px;
