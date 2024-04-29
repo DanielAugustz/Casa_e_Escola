@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header {
+    height: 60px;
+    background-color: #2e486b;
+    color: #fff;
+}
+.header{
+    max-width:1140px;
+    margin:auto;
+    display:flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.logoimg img{
+    width: 55px;
+    height: 55px;
+    padding: 2px;
+}
+
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.abrir-menu{
+    display: none;
+}
+.menu ul,
+.menu li {
+    list-style: none;;
+}
+.menu ul{
+    display: flex;
+}
+.menu li a {
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    border-bottom: 4px solid #2e486b;
+}
+.menu li a:hover{
+    border-bottom: 4px solid #db6262;
+    color: #CCC;
+}
+
+
+
+.banner{
+    height:calc(100vh - 60px);
+    background-color: #333;
+    background-image: url('../css/Image/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;   
+}
+.Bannerarea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.banner .colorbg{
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0.8) ;
+    justify-content: center;
+}
+.banner h2{
+    font-size: 60px;
+}
+.banner h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 70px;
+    color: #476791;
+}
+.button{
+    display: inline-block;
+    background-color: #db6262;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px solid #db6262 ;
+}
+.button:hover{
+    background-color: #a14b4b;
+    color: #ccc;
+}
+
+
+
+.default{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.default .titulos{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.default .bodys{
+    max-width: 1140px;
+    margin: auto;
+    min-height: 100px;
+}
+.default.blue{
+    background-color: #2e486b
+}
+.default.pink{
+    background-color: #a14b4b;
+}
+.default.blue .titulos,
+.default.blue .bodys,
+.default.pink .titulos,
+.default.pink .bodys{
+    color: #bbb;
+}
+
+
+
+.sobrenos{
+    display: flex;
+}
+.sobrenos-esquerda{
+    flex: 1;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.sobrenos-direita{
+    width: 520px;
+    text-align: center;
+}
+.sobrenos-direita img{
+    width: 280px;
+    border-radius: 150px;
+    box-shadow: 0px 5px 10px #333;
+}
+.sobrenos-esuqerda p{
+    font-size: 14;
+    line-height: 25px; 
+}
+
+
+
+.area-professor{
+    display: flex;
+}
+.area-professor--direita{
+    flex: 1;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 1.2;
+}
+.area-professor--direita ul{
+    display: flex;   
+    justify-content: center;
+    gap: 30px;
+    margin-top: 90px;
+    background-color: #2e486b;
+    border-radius: 100px;
+}
+.area-professor--direita ul li{
+    list-style: none; 
+}
+.area-professor--direita li{
+    text-align: center;
+}
+.area-professor--esquerda{
+    width: 450px;
+    text-align: center;
+}
+.area-professor--esquerda img{
+    width: 280px;
+    border-radius: 150px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+
+
+.area-aluno{
+    display: flex;
+}
+
+.area-aluno--esquerda{
+    flex: 1;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 1.2;
+}
+.area-aluno--esquerda ul{
+    display: flex;   
+    justify-content: center;
+    gap: 40px;
+    margin-top: 90px;
+    background-color: #a14b4b;
+    border-radius: 100px;
+}
+.area-aluno--esquerda ul li{
+    list-style: none; 
+}
+.area-aluno--esquerda li{
+    text-align: center;
+}
+.area-aluno--direita{
+    width: 450px;
+    text-align: center;
+}
+.area-aluno--direita img{
+    width: 280px;
+    border-radius: 150px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+
+
+.form-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-contato form{
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+}
+.form-contato div{
+    margin-bottom: 10px;
+}
+.form-contato label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-contato input[type="text"],
+.form-contato input[type="email"],
+.form-contato input[type="tel"],
+.form-contato textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #a14b4b;
+    color: #bbb;
+    border-style:none;
+    border-bottom:2px solid #bbb;
+}
+.form-contato input:focus,
+.form-contato textarea:focus{
+    outline: none;
+}
+.form-contato textarea{
+    max-width: 100%;
+    min-width: 100%;
+}
+.form-contato button{
+    font-size: 17px;
+    background-color: #476791;
+    border:1px solid #476791;
+}
+.form-contato .button:hover{
+    background-color: #2e486b;
+} 
+
+
+
+.contatos{
+    width: 100%;
+    background-color: #2e486b;
+    color: #bbb;
+    text-align: center;
+    padding: 10px 0;
+}
+.contatos ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contatos li{
+    padding: 0 30px;
+}
+.contatos ul,
+.contatos li{
+    list-style: none;
+}
+.contatos a{
+    text-decoration: none;
+    color: #bbb;
+}
+
+
+@media (min-width:450px) and (max-width:850px) {
+    body{
+        overflow-x:hidden
+    }
+    .logo{
+        margin-left:30px;
+    }
+    .menu{
+        justify-content: flex-end;
+    }
+    .abrir-menu{
+        display: block;
+        width: px;
+        margin-right: 30px;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 50vw;
+        height: calc(100vh - 400px);
+        top: 60px;
+        right:0;
+    }
+    
+    .menu ul{
+        flex-direction: column;
+    }
+    
+    .menu li a{
+        font-weight: bold;
+        height: 80px;
+        font-size: 23px;
+        margin-left: 50px;
+        border: 0;
+    }
+    .menu li a:hover{
+        border: 0;
+        color:#a14b4b;
+    }
+    
+    
+    .sobrenos{
+        flex-direction: column;
+    }
+    .sobrenos-esquerda{
+        margin-left: 30px;
+        margin-right:30px;
+        margin-bottom:30px;
+    }
+    .sobrenos-direita{
+        width: auto;
+    }
+    
+    
+    .area-professor{
+        flex-direction: column;
+    }
+    .area-professor--esquerda{
+        width: auto;
+    }
+    .area-professor--direita{
+        font-size: 18px;
+    }
+    .area-professor--direita ul{
+        gap: 20px;
+    }
+    
+    .area-aluno{
+        flex-direction:column-reverse;
+    }
+    .area-aluno--direita{
+        width: auto;
+    }
+    .area-aluno--esquerda{
+        font-size: 18px;
+    }
+    .area-aluno--esquerda ul{
+        gap:20px;
+    }
+    .contatos li{
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width:450px) {
+    body{
+        overflow-x:hidden
+    }
+    .logo{
+        margin-left:30px;
+    }
+    .menu{
+        justify-content: flex-end;
+    }
+    .abrir-menu{
+        display: block;
+        width: px;
+        margin-right: 30px;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        height: calc(100vh - 400px);
+        top: 60px;
+        right:0;
+    }
+    
+    .menu ul{
+        flex-direction: column;
+    }
+    
+    .menu li a{
+        font-weight: bold;
+        height: 80px;
+        font-size: 17px;
+        margin-left: 50px;
+        border: 0;
+    }
+    .menu li a:hover{
+        border: 0;
+        color:#a14b4b;
+    }
+    .Bannerarea h2,
+    .Bannerarea h1{
+        font-size: 35px;
+    }
+    
+    .sobrenos{
+        flex-direction: column;
+    }
+    .sobrenos-esquerda{
+        margin-left: 30px;
+        margin-right:30px;
+        margin-bottom:30px;
+    }
+    .sobrenos-direita{
+        width: auto;
+    }
+    
+    
+    .area-professor{
+        flex-direction: column;
+    }
+    .area-professor--esquerda{
+        width: auto;
+    }
+    .area-professor--direita{
+        font-size: 13px;
+    }
+    .area-professor--direita ul{
+        gap: 10px;
+    }
+    
+    .area-aluno{
+        flex-direction:column-reverse;
+    }
+    .area-aluno--direita{
+        width: auto;
+    }
+    .area-aluno--esquerda{
+        font-size: 13px;
+    }
+    .area-aluno--esquerda ul{
+        gap:10px;
+    }
+    .contatos ul{
+        font-size: 10px;
+    }
+    .contatos li{
+        padding: 0 5px;
+    }
+}
