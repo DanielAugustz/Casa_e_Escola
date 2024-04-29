@@ -375,9 +375,11 @@ header {
         width: auto;
     }
     .area-professor--direita{
-        font-size: 15px;
+        font-size: 18px;
     }
-    
+    .area-professor--direita ul{
+        gap: 20px;
+    }
     
     .area-aluno{
         flex-direction:column-reverse;
@@ -386,7 +388,10 @@ header {
         width: auto;
     }
     .area-aluno--esquerda{
-        font-size: 15px;
+        font-size: 18px;
+    }
+    .area-aluno--esquerda ul{
+        gap:20px;
     }
     .contatos li{
         padding: 0 20px;
@@ -462,7 +467,9 @@ header {
     .area-professor--direita{
         font-size: 15px;
     }
-    
+    .area-professor--direita ul{
+        gap: 10px;
+    }
     
     .area-aluno{
         flex-direction:column-reverse;
@@ -472,6 +479,9 @@ header {
     }
     .area-aluno--esquerda{
         font-size: 15px;
+    }
+    .area-aluno--esquerda ul{
+        gap:10px;
     }
     .contatos li{
         padding: 0 10px;
