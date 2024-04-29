@@ -483,7 +483,10 @@ header {
     .area-aluno--esquerda ul{
         gap:10px;
     }
+    .contatos ul{
+        font-size: 10px;
+    }
     .contatos li{
-        padding: 0 10px;
+        padding: 0 5px;
     }
 }
