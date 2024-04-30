@@ -30,6 +30,7 @@ header {
     flex: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .abrir-menu{
     display: none;
@@ -50,7 +51,7 @@ header {
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
-    height: 50px;
+    height: 60px;
     align-items: center;
     border-bottom: 4px solid #2e486b;
 }
@@ -388,11 +389,9 @@ header {
 
 
 @media (max-width:450px) {
-    body{
-        overflow-x:hidden
-    }
-    .logo{
-        margin-left:5px;
+    .logo,
+    .logoimg{
+        display:none;
     }
     .menu{
         justify-content:center;
