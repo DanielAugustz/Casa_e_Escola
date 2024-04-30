@@ -289,7 +289,16 @@ header {
 .form-contato input:focus,
 .form-contato textarea:focus{
     outline: none;
+    background-color: #a14b4b;
 }
+input:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-box-shadow: 0 0 0 0px #a14b4b inset;
+}
+input:-webkit-autofill {
+    -webkit-text-fill-color: #bbb !important;
+}
+.form-contato 
 .form-contato textarea{
     max-width: 100%;
     min-width: 100%;
