@@ -17,6 +17,9 @@ header {
     display:flex;
     align-items: center;
 }
+
+
+
 .logo{
     width: 100px;
 }
@@ -25,6 +28,8 @@ header {
     height: 55px;
     padding: 2px;
 }
+
+
 
 .menu{
     flex: 1;
@@ -377,6 +382,8 @@ input:-webkit-autofill {
         gap: 20px;
     }
     
+
+
     .area-aluno{
         flex-direction:column-reverse;
     }
@@ -408,11 +415,16 @@ input:-webkit-autofill {
     .menu li a {
         font-size: 13px;
     }
+
+
+
     .Bannerarea h2,
     .Bannerarea h1{
         font-size: 35px;
     }
     
+
+
     .sobrenos{
         flex-direction: column;
     }
@@ -426,6 +438,7 @@ input:-webkit-autofill {
     }
     
     
+
     .area-professor{
         flex-direction: column;
     }
@@ -439,6 +452,8 @@ input:-webkit-autofill {
         gap: 10px;
     }
     
+
+
     .area-aluno{
         flex-direction:column-reverse;
     }
@@ -451,6 +466,9 @@ input:-webkit-autofill {
     .area-aluno--esquerda ul{
         gap:10px;
     }
+
+
+    
     .contatos ul{
         font-size: 10px;
     }
