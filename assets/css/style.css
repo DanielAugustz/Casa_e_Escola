@@ -37,9 +37,7 @@ header {
     justify-content: center;
     align-items: center;
 }
-.abrir-menu{
-    display: none;
-}
+
 .menu ul,
 .menu li {
     list-style: none;;
